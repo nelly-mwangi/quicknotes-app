@@ -21,3 +21,11 @@ QuickNotes is a simple web application for creating, organizing, searching, and 
 
 ```bash
 git clone https://github.com/nelly-mwangi/quicknotes-app.git
+
+## What I Learned
+
+- I learned how to structure a web page using semantic HTML5.
+- I learned how to use CSS Flexbox and responsive design.
+- I learned how to use JavaScript to add, display, search, and delete notes.
+- I learned how to use localStorage to save data in the browser.
+- I learned how to use Git and GitHub to track and publish my project.

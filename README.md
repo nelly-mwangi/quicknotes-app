@@ -21,6 +21,7 @@ QuickNotes is a simple web application for creating, organizing, searching, and 
 
 ```bash
 git clone https://github.com/nelly-mwangi/quicknotes-app.git
+```
 
 ## What I Learned
 

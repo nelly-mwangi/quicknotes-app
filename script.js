@@ -88,13 +88,22 @@ form.addEventListener("submit", function (event) {
   const text = noteInput.value.trim();
   const category = noteCategory.value;
 
+  errorMessage.textContent = "";
+
   if (text === "") {
+    errorMessage.textContent = "Please enter a note.";
+    return;
+  }
+
+  if (text.length > 200) {
+    errorMessage.textContent = "Note must be 200 characters or less.";
     return;
   }
 
   addNote(text, category);
 
   noteInput.value = "";
+  errorMessage.textContent = "";
   noteInput.focus();
 });
 

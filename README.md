@@ -18,10 +18,12 @@ QuickNotes is a simple web application for creating, organizing, searching, and 
 ## How to Run the Project Locally
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/nelly-mwangi/quicknotes-app.git
-```
+2. Open the project folder:
+cd quicknotes-app
+3. Open index.html in a web browser.
+
+Alternatively, if you are using Visual Studio Code, install the Live Server extension, right-click index.html, and select Open with Live Serve
 
 ## What I Learned
 

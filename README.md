@@ -14,13 +14,6 @@ QuickNotes is a simple web application for creating, organizing, searching, and 
 - Save notes using localStorage
 - Responsive layout for smaller screens
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Browser localStorage
-
 ## How to Use
 
 1. Open the application in a web browser.

@@ -1,34 +1,23 @@
 # QuickNotes
 
-QuickNotes is a simple web application for creating, organizing, searching, and managing notes.
+QuickNotes is a simple web application for creating, organizing, searching, and managing notes. Users can add notes under Personal, Work, or Study categories, delete notes, search for notes as they type, and save their notes in the browser using localStorage. The application also validates note length and provides a responsive layout for smaller screens.
 
 ## Features
 
 - Add notes with Personal, Work, or Study categories
 - Delete notes
-- Validate notes before adding them
+- Validate empty notes
 - Limit notes to 200 characters
 - Search notes as you type
 - Case-insensitive search
 - Display the number of saved notes
-- Save notes using localStorage
+- Save notes using browser localStorage
+- Display the date and time each note was created
 - Responsive layout for smaller screens
 
-## How to Use
+## How to Run the Project Locally
 
-1. Open the application in a web browser.
-2. Enter a note in the note field.
-3. Select a category.
-4. Click **Add Note**.
-5. Use the search field to find notes.
-6. Click **Delete** to remove a note.
+1. Clone the repository:
 
-## Project Structure
-
-```text
-quicknotes-app/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+```bash
+git clone https://github.com/nelly-mwangi/quicknotes-app.git
